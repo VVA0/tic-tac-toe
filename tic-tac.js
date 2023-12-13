@@ -118,6 +118,6 @@ function checkDraw() {
     wrapperPlayer.classList.add("hidden");
     restartBtn.classList.remove("hidden");
     winner.innerHTML = "Ничья!";
-    drawScore.innerHTML = +drawScore.innerHTML + 1;
+    drawScore.innerHTML = +drawScore.innerHTML + 1; //!
   }
 }
